@@ -11,6 +11,10 @@ const exec = require('child_process').exec,
 	PATH_SRC = path.resolve(__dirname, 'src'),
 	PATH_REPORTS = path.resolve(__dirname, 'reports');
 
+if (!fs.existsSync(PATH_REPORTS)) {
+	fs.mkdirSync(PATH_REPORTS);
+}
+
 function execCommand(str) {
 	return new Promise((resolve, reject) => {
 		exec(str, (err, stdout) => {
@@ -48,63 +52,87 @@ function print(str) {
 	console.log(str);
 }
 
-function hey(opts) {
-	opts = {
+function heyCommand(opts) {
+	opts = Object.assign({}, {
 		m: 'GET',
-		t: 50000,
-		...opts
+		n: 30000,
+	}, opts);
+
+	const args = [];
+
+	for (let k of Object.keys(opts)) {
+		args.push(`-${k}`, opts[k])
 	}
+
+	return `hey ${args.join(' ')} http://localhost:${config.LISTEN_PORT}`;
 }
 
 function test(filename) {
-	return new Promise((resolve, reject) => {
+	return new Promise(async (resolve, reject) => {
 		const mod = require(filename),
-			app = mod.app,
-			stringStream = createStringStream(),
 			basename = path.basename(filename, '.js'),
+			stringStream = createStringStream(),
 			reportStream = fs.createWriteStream(path.resolve(PATH_REPORTS, basename + '.txt'));
 
-		const server = app.listen(config.LISTEN_PORT, function (err) {
-			print(`${basename} ready`);
+		stringStream
+			.on('data', function (data) {
+				if (data instanceof Buffer) {
+					data = data.toString();
+				}
+				print(data);
+			});
+		stringStream.writeln('cpu info: ' + os.cpus()[0].model);
+		stringStream.writeln('node version: ' + process.version);
 
-			stringStream
-				.on('data', function (data) {
-					if (data instanceof Buffer) {
-						data = data.toString();
-					}
-					print(data);
-				})
-				.pipe(reportStream)
-				.on('finish', function () {
-					server.close();
-					print(`${basename} closed`);
-					resolve();
-				});
+		stringStream
+			.pipe(reportStream)
+			.on('finish', function () {
+				resolve();
+			});
 
-			(async function () {
-				try {
-					stringStream.writeln('cpu info: ' + os.cpus()[0].model);
-					stringStream.writeln('node version: ' + await execCommand(`node -v`));
-					stringStream.writeln(await execCommand(`hey -n 10000 http://localhost:${config.LISTEN_PORT}`));
+		try {
+			for (let amount of [0, 10, 100, 1000]) {
+				stringStream.writeln(`---------${amount} middlewares---------`);
+
+				const app = mod.createApp({
+						middlewareAmount: amount
+					}),
+					server = await new Promise((resolve, reject) => {
+						const s = app.listen(config.LISTEN_PORT, function (err) {
+							if (!err) {
+								print(`${basename} ready`);
+								resolve(s);
+							}
+							else {
+								reject(err);
+							}
+						});
+					});
+
+				for (let m of ['GET', 'POST']) {
+					stringStream.writeln(`Method -- ${m}: `);
+					stringStream.writeln(await execCommand(heyCommand({
+						m
+					})));
 				}
-				catch (e) {
-					print(e);
-				}
-				finally {
-					stringStream.end();
-				}
-			})();
-		});
+
+				server.close();
+				print(`${basename} closed`);
+			}
+		}
+		catch (e) {
+			print(e);
+		}
+		finally {
+			stringStream.end();
+		}
 	});
 }
 
-glob(`${PATH_SRC}/!(config.js)`, (err, filenames) => {
-	(async function () {
-		for (let filename of filenames) {
-			await test(filename);
-			// break;
-		}
-	})();
+glob(`${PATH_SRC}/!(config.js)`, async (err, filenames) => {
+	for (let filename of filenames) {
+		await test(filename);
+	}
 });
 
 

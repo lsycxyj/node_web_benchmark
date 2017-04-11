@@ -1,0 +1,1592 @@
+cpu info: Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz
+node version: v7.7.3
+---------0 middlewares---------
+Method -- GET: 
+1922 requests done.
+4769 requests done.
+7618 requests done.
+10531 requests done.
+13413 requests done.
+16444 requests done.
+19403 requests done.
+22362 requests done.
+25390 requests done.
+28375 requests done.
+All requests done.
+
+Summary:
+  Total:	5.2710 secs
+  Slowest:	0.0480 secs
+  Fastest:	0.0005 secs
+  Average:	0.0088 secs
+  Requests/sec:	5691.4923
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.000 [1]	|
+  0.005 [33]	|
+  0.010 [24782]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.015 [3586]	|∎∎∎∎∎∎
+  0.020 [1413]	|∎∎
+  0.024 [60]	|
+  0.029 [83]	|
+  0.034 [29]	|
+  0.039 [1]	|
+  0.043 [1]	|
+  0.048 [11]	|
+
+Latency distribution:
+  10% in 0.0070 secs
+  25% in 0.0075 secs
+  50% in 0.0080 secs
+  75% in 0.0090 secs
+  90% in 0.0115 secs
+  95% in 0.0150 secs
+  99% in 0.0180 secs
+
+Method -- POST: 
+2872 requests done.
+5709 requests done.
+8700 requests done.
+11669 requests done.
+14524 requests done.
+17497 requests done.
+20436 requests done.
+23329 requests done.
+26317 requests done.
+29233 requests done.
+All requests done.
+
+Summary:
+  Total:	5.1335 secs
+  Slowest:	0.0245 secs
+  Fastest:	0.0000 secs
+  Average:	0.0085 secs
+  Requests/sec:	5843.9881
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.000 [1]	|
+  0.002 [4]	|
+  0.005 [10]	|
+  0.007 [3358]	|∎∎∎∎∎∎
+  0.010 [22819]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.012 [1835]	|∎∎∎
+  0.015 [646]	|∎
+  0.017 [1261]	|∎∎
+  0.020 [45]	|
+  0.022 [3]	|
+  0.025 [18]	|
+
+Latency distribution:
+  10% in 0.0070 secs
+  25% in 0.0075 secs
+  50% in 0.0080 secs
+  75% in 0.0090 secs
+  90% in 0.0100 secs
+  95% in 0.0140 secs
+  99% in 0.0165 secs
+
+---------10 middlewares---------
+Method -- GET: 
+1878 requests done.
+4349 requests done.
+6612 requests done.
+9094 requests done.
+11333 requests done.
+13728 requests done.
+16137 requests done.
+18421 requests done.
+20924 requests done.
+23232 requests done.
+25795 requests done.
+28088 requests done.
+All requests done.
+
+Summary:
+  Total:	6.3880 secs
+  Slowest:	0.0410 secs
+  Fastest:	0.0000 secs
+  Average:	0.0106 secs
+  Requests/sec:	4696.3354
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.000 [1]	|
+  0.004 [8]	|
+  0.008 [26]	|
+  0.012 [24514]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.016 [4428]	|∎∎∎∎∎∎∎
+  0.021 [903]	|∎
+  0.025 [77]	|
+  0.029 [11]	|
+  0.033 [12]	|
+  0.037 [8]	|
+  0.041 [12]	|
+
+Latency distribution:
+  10% in 0.0090 secs
+  25% in 0.0090 secs
+  50% in 0.0095 secs
+  75% in 0.0115 secs
+  90% in 0.0140 secs
+  95% in 0.0150 secs
+  99% in 0.0180 secs
+
+Method -- POST: 
+2063 requests done.
+4211 requests done.
+6704 requests done.
+8967 requests done.
+11464 requests done.
+13612 requests done.
+15877 requests done.
+18296 requests done.
+20790 requests done.
+23303 requests done.
+25613 requests done.
+28102 requests done.
+All requests done.
+
+Summary:
+  Total:	6.4188 secs
+  Slowest:	0.0265 secs
+  Fastest:	0.0005 secs
+  Average:	0.0107 secs
+  Requests/sec:	4673.7428
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.001 [1]	|
+  0.003 [7]	|
+  0.006 [9]	|
+  0.008 [23]	|
+  0.011 [20023]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.014 [6316]	|∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.016 [2514]	|∎∎∎∎∎
+  0.019 [593]	|∎
+  0.021 [366]	|∎
+  0.024 [35]	|
+  0.027 [113]	|
+
+Latency distribution:
+  10% in 0.0090 secs
+  25% in 0.0090 secs
+  50% in 0.0095 secs
+  75% in 0.0115 secs
+  90% in 0.0140 secs
+  95% in 0.0150 secs
+  99% in 0.0200 secs
+
+---------100 middlewares---------
+Method -- GET: 
+949 requests done.
+2016 requests done.
+2989 requests done.
+4068 requests done.
+5123 requests done.
+6088 requests done.
+7143 requests done.
+8189 requests done.
+9140 requests done.
+10160 requests done.
+11223 requests done.
+12166 requests done.
+13209 requests done.
+14261 requests done.
+15188 requests done.
+16181 requests done.
+17223 requests done.
+18174 requests done.
+19207 requests done.
+20218 requests done.
+21204 requests done.
+22243 requests done.
+23267 requests done.
+24213 requests done.
+25242 requests done.
+26304 requests done.
+27248 requests done.
+28287 requests done.
+29333 requests done.
+All requests done.
+
+Summary:
+  Total:	14.8789 secs
+  Slowest:	0.0600 secs
+  Fastest:	0.0010 secs
+  Average:	0.0248 secs
+  Requests/sec:	2016.2714
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.001 [1]	|
+  0.007 [4]	|
+  0.013 [8]	|
+  0.019 [19]	|
+  0.025 [18032]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.031 [10134]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.036 [1488]	|∎∎∎
+  0.042 [287]	|∎
+  0.048 [18]	|
+  0.054 [0]	|
+  0.060 [9]	|
+
+Latency distribution:
+  10% in 0.0220 secs
+  25% in 0.0225 secs
+  50% in 0.0245 secs
+  75% in 0.0255 secs
+  90% in 0.0285 secs
+  95% in 0.0310 secs
+  99% in 0.0365 secs
+
+Method -- POST: 
+982 requests done.
+1982 requests done.
+2942 requests done.
+3949 requests done.
+4982 requests done.
+5934 requests done.
+6948 requests done.
+7991 requests done.
+8936 requests done.
+9983 requests done.
+11027 requests done.
+11966 requests done.
+13018 requests done.
+14062 requests done.
+15020 requests done.
+16057 requests done.
+17104 requests done.
+18067 requests done.
+19094 requests done.
+20113 requests done.
+21021 requests done.
+22036 requests done.
+23019 requests done.
+23967 requests done.
+24994 requests done.
+26018 requests done.
+27012 requests done.
+28013 requests done.
+28977 requests done.
+All requests done.
+
+Summary:
+  Total:	14.9956 secs
+  Slowest:	0.0480 secs
+  Fastest:	0.0005 secs
+  Average:	0.0250 secs
+  Requests/sec:	2000.5832
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.000 [1]	|
+  0.005 [13]	|
+  0.010 [3]	|
+  0.015 [13]	|
+  0.020 [17]	|
+  0.024 [12493]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.029 [14661]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.034 [2020]	|∎∎∎∎∎∎
+  0.039 [498]	|∎
+  0.043 [248]	|∎
+  0.048 [33]	|
+
+Latency distribution:
+  10% in 0.0220 secs
+  25% in 0.0225 secs
+  50% in 0.0245 secs
+  75% in 0.0260 secs
+  90% in 0.0285 secs
+  95% in 0.0310 secs
+  99% in 0.0380 secs
+
+---------1000 middlewares---------
+Method -- GET: 
+48 requests done.
+104 requests done.
+158 requests done.
+214 requests done.
+262 requests done.
+304 requests done.
+358 requests done.
+412 requests done.
+459 requests done.
+500 requests done.
+552 requests done.
+605 requests done.
+648 requests done.
+707 requests done.
+765 requests done.
+811 requests done.
+853 requests done.
+913 requests done.
+972 requests done.
+1017 requests done.
+1065 requests done.
+1128 requests done.
+1182 requests done.
+1227 requests done.
+1280 requests done.
+1339 requests done.
+1391 requests done.
+1434 requests done.
+1486 requests done.
+1541 requests done.
+1584 requests done.
+1642 requests done.
+1696 requests done.
+1741 requests done.
+1799 requests done.
+1852 requests done.
+1891 requests done.
+1928 requests done.
+1986 requests done.
+2038 requests done.
+2078 requests done.
+2136 requests done.
+2190 requests done.
+2230 requests done.
+2288 requests done.
+2340 requests done.
+2382 requests done.
+2438 requests done.
+2491 requests done.
+2531 requests done.
+2589 requests done.
+2640 requests done.
+2684 requests done.
+2740 requests done.
+2790 requests done.
+2837 requests done.
+2893 requests done.
+2942 requests done.
+2987 requests done.
+3041 requests done.
+3089 requests done.
+3134 requests done.
+3188 requests done.
+3236 requests done.
+3283 requests done.
+3339 requests done.
+3385 requests done.
+3434 requests done.
+3489 requests done.
+3536 requests done.
+3589 requests done.
+3646 requests done.
+3694 requests done.
+3735 requests done.
+3789 requests done.
+3844 requests done.
+3886 requests done.
+3946 requests done.
+4000 requests done.
+4044 requests done.
+4082 requests done.
+4143 requests done.
+4199 requests done.
+4244 requests done.
+4302 requests done.
+4354 requests done.
+4395 requests done.
+4433 requests done.
+4494 requests done.
+4544 requests done.
+4587 requests done.
+4647 requests done.
+4700 requests done.
+4739 requests done.
+4781 requests done.
+4841 requests done.
+4895 requests done.
+4939 requests done.
+4997 requests done.
+5048 requests done.
+5086 requests done.
+5126 requests done.
+5184 requests done.
+5238 requests done.
+5284 requests done.
+5341 requests done.
+5392 requests done.
+5433 requests done.
+5479 requests done.
+5538 requests done.
+5588 requests done.
+5635 requests done.
+5690 requests done.
+5738 requests done.
+5786 requests done.
+5840 requests done.
+5886 requests done.
+5931 requests done.
+5982 requests done.
+6029 requests done.
+6079 requests done.
+6134 requests done.
+6180 requests done.
+6230 requests done.
+6286 requests done.
+6329 requests done.
+6381 requests done.
+6433 requests done.
+6478 requests done.
+6531 requests done.
+6586 requests done.
+6629 requests done.
+6686 requests done.
+6738 requests done.
+6778 requests done.
+6836 requests done.
+6890 requests done.
+6931 requests done.
+6991 requests done.
+7043 requests done.
+7086 requests done.
+7144 requests done.
+7197 requests done.
+7242 requests done.
+7299 requests done.
+7349 requests done.
+7395 requests done.
+7451 requests done.
+7500 requests done.
+7549 requests done.
+7605 requests done.
+7650 requests done.
+7702 requests done.
+7756 requests done.
+7801 requests done.
+7854 requests done.
+7908 requests done.
+7951 requests done.
+8005 requests done.
+8056 requests done.
+8097 requests done.
+8152 requests done.
+8202 requests done.
+8244 requests done.
+8300 requests done.
+8352 requests done.
+8394 requests done.
+8453 requests done.
+8502 requests done.
+8543 requests done.
+8603 requests done.
+8657 requests done.
+8699 requests done.
+8757 requests done.
+8807 requests done.
+8851 requests done.
+8909 requests done.
+8961 requests done.
+9002 requests done.
+9043 requests done.
+9101 requests done.
+9152 requests done.
+9194 requests done.
+9252 requests done.
+9305 requests done.
+9349 requests done.
+9403 requests done.
+9454 requests done.
+9500 requests done.
+9556 requests done.
+9603 requests done.
+9650 requests done.
+9705 requests done.
+9752 requests done.
+9801 requests done.
+9856 requests done.
+9905 requests done.
+9957 requests done.
+10011 requests done.
+10054 requests done.
+10093 requests done.
+10138 requests done.
+10194 requests done.
+10241 requests done.
+10286 requests done.
+10341 requests done.
+10388 requests done.
+10433 requests done.
+10486 requests done.
+10536 requests done.
+10584 requests done.
+10639 requests done.
+10687 requests done.
+10735 requests done.
+10791 requests done.
+10837 requests done.
+10889 requests done.
+10942 requests done.
+10987 requests done.
+11041 requests done.
+11095 requests done.
+11137 requests done.
+11194 requests done.
+11246 requests done.
+11287 requests done.
+11345 requests done.
+11399 requests done.
+11440 requests done.
+11497 requests done.
+11549 requests done.
+11590 requests done.
+11649 requests done.
+11701 requests done.
+11742 requests done.
+11801 requests done.
+11854 requests done.
+11899 requests done.
+11951 requests done.
+12001 requests done.
+12040 requests done.
+12079 requests done.
+12136 requests done.
+12188 requests done.
+12230 requests done.
+12288 requests done.
+12341 requests done.
+12384 requests done.
+12439 requests done.
+12491 requests done.
+12538 requests done.
+12595 requests done.
+12644 requests done.
+12683 requests done.
+12730 requests done.
+12788 requests done.
+12839 requests done.
+12890 requests done.
+12946 requests done.
+12996 requests done.
+13037 requests done.
+13089 requests done.
+13144 requests done.
+13189 requests done.
+13243 requests done.
+13295 requests done.
+13340 requests done.
+13396 requests done.
+13451 requests done.
+13495 requests done.
+13534 requests done.
+13592 requests done.
+13646 requests done.
+13693 requests done.
+13732 requests done.
+13790 requests done.
+13848 requests done.
+13893 requests done.
+13932 requests done.
+13993 requests done.
+14049 requests done.
+14093 requests done.
+14134 requests done.
+14193 requests done.
+14243 requests done.
+14285 requests done.
+14344 requests done.
+14396 requests done.
+14439 requests done.
+14496 requests done.
+14549 requests done.
+14594 requests done.
+14650 requests done.
+14701 requests done.
+14746 requests done.
+14803 requests done.
+14851 requests done.
+14900 requests done.
+14954 requests done.
+15001 requests done.
+15048 requests done.
+15104 requests done.
+15150 requests done.
+15202 requests done.
+15253 requests done.
+15296 requests done.
+15346 requests done.
+15398 requests done.
+15443 requests done.
+15494 requests done.
+15548 requests done.
+15591 requests done.
+15644 requests done.
+15695 requests done.
+15738 requests done.
+15791 requests done.
+15842 requests done.
+15886 requests done.
+15939 requests done.
+15991 requests done.
+16034 requests done.
+16087 requests done.
+16139 requests done.
+16182 requests done.
+16235 requests done.
+16287 requests done.
+16329 requests done.
+16380 requests done.
+16433 requests done.
+16472 requests done.
+16523 requests done.
+16576 requests done.
+16620 requests done.
+16672 requests done.
+16724 requests done.
+16768 requests done.
+16821 requests done.
+16871 requests done.
+16914 requests done.
+16964 requests done.
+17016 requests done.
+17061 requests done.
+17113 requests done.
+17167 requests done.
+17208 requests done.
+17263 requests done.
+17316 requests done.
+17358 requests done.
+17411 requests done.
+17464 requests done.
+17507 requests done.
+17562 requests done.
+17616 requests done.
+17656 requests done.
+17715 requests done.
+17767 requests done.
+17809 requests done.
+17869 requests done.
+17920 requests done.
+17964 requests done.
+18021 requests done.
+18074 requests done.
+18118 requests done.
+18176 requests done.
+18225 requests done.
+18272 requests done.
+18327 requests done.
+18377 requests done.
+18425 requests done.
+18481 requests done.
+18529 requests done.
+18582 requests done.
+18637 requests done.
+18682 requests done.
+18740 requests done.
+18792 requests done.
+18829 requests done.
+18885 requests done.
+18940 requests done.
+18979 requests done.
+19040 requests done.
+19093 requests done.
+19135 requests done.
+19194 requests done.
+19246 requests done.
+19290 requests done.
+19349 requests done.
+19401 requests done.
+19448 requests done.
+19505 requests done.
+19553 requests done.
+19598 requests done.
+19653 requests done.
+19699 requests done.
+19750 requests done.
+19805 requests done.
+19852 requests done.
+19905 requests done.
+19961 requests done.
+20005 requests done.
+20062 requests done.
+20115 requests done.
+20155 requests done.
+20214 requests done.
+20267 requests done.
+20309 requests done.
+20369 requests done.
+20423 requests done.
+20467 requests done.
+20524 requests done.
+20575 requests done.
+20619 requests done.
+20676 requests done.
+20725 requests done.
+20766 requests done.
+20809 requests done.
+20866 requests done.
+20918 requests done.
+20960 requests done.
+21002 requests done.
+21062 requests done.
+21114 requests done.
+21160 requests done.
+21214 requests done.
+21262 requests done.
+21304 requests done.
+21360 requests done.
+21409 requests done.
+21455 requests done.
+21509 requests done.
+21558 requests done.
+21604 requests done.
+21658 requests done.
+21706 requests done.
+21752 requests done.
+21808 requests done.
+21855 requests done.
+21904 requests done.
+21962 requests done.
+22010 requests done.
+22053 requests done.
+22099 requests done.
+22150 requests done.
+22196 requests done.
+22242 requests done.
+22298 requests done.
+22346 requests done.
+22395 requests done.
+22450 requests done.
+22498 requests done.
+22549 requests done.
+22604 requests done.
+22648 requests done.
+22702 requests done.
+22757 requests done.
+22799 requests done.
+22857 requests done.
+22911 requests done.
+22953 requests done.
+23009 requests done.
+23062 requests done.
+23104 requests done.
+23163 requests done.
+23215 requests done.
+23259 requests done.
+23317 requests done.
+23369 requests done.
+23414 requests done.
+23468 requests done.
+23517 requests done.
+23564 requests done.
+23621 requests done.
+23669 requests done.
+23718 requests done.
+23773 requests done.
+23821 requests done.
+23871 requests done.
+23925 requests done.
+23970 requests done.
+24025 requests done.
+24076 requests done.
+24120 requests done.
+24175 requests done.
+24228 requests done.
+24269 requests done.
+24326 requests done.
+24376 requests done.
+24418 requests done.
+24474 requests done.
+24529 requests done.
+24568 requests done.
+24626 requests done.
+24679 requests done.
+24721 requests done.
+24780 requests done.
+24832 requests done.
+24875 requests done.
+24932 requests done.
+24983 requests done.
+25026 requests done.
+25083 requests done.
+25133 requests done.
+25179 requests done.
+25235 requests done.
+25285 requests done.
+25330 requests done.
+25390 requests done.
+25440 requests done.
+25480 requests done.
+25529 requests done.
+25584 requests done.
+25632 requests done.
+25684 requests done.
+25739 requests done.
+25783 requests done.
+25836 requests done.
+25887 requests done.
+25927 requests done.
+25982 requests done.
+26039 requests done.
+26085 requests done.
+26126 requests done.
+26183 requests done.
+26241 requests done.
+26287 requests done.
+26327 requests done.
+26388 requests done.
+26444 requests done.
+26491 requests done.
+26551 requests done.
+26605 requests done.
+26648 requests done.
+26691 requests done.
+26750 requests done.
+26802 requests done.
+26851 requests done.
+26909 requests done.
+26958 requests done.
+26999 requests done.
+27046 requests done.
+27101 requests done.
+27148 requests done.
+27197 requests done.
+27252 requests done.
+27297 requests done.
+27337 requests done.
+27390 requests done.
+27439 requests done.
+27485 requests done.
+27541 requests done.
+27590 requests done.
+27639 requests done.
+27693 requests done.
+27740 requests done.
+27790 requests done.
+27844 requests done.
+27889 requests done.
+27940 requests done.
+27994 requests done.
+28038 requests done.
+28092 requests done.
+28146 requests done.
+28191 requests done.
+28231 requests done.
+28283 requests done.
+28340 requests done.
+28385 requests done.
+28439 requests done.
+28490 requests done.
+28533 requests done.
+28570 requests done.
+28619 requests done.
+28673 requests done.
+28719 requests done.
+28767 requests done.
+28821 requests done.
+28867 requests done.
+28917 requests done.
+28970 requests done.
+29016 requests done.
+29067 requests done.
+29121 requests done.
+29164 requests done.
+29217 requests done.
+29268 requests done.
+29311 requests done.
+29365 requests done.
+29415 requests done.
+29459 requests done.
+29509 requests done.
+29563 requests done.
+29605 requests done.
+29658 requests done.
+29711 requests done.
+29755 requests done.
+29808 requests done.
+29862 requests done.
+29904 requests done.
+29960 requests done.
+All requests done.
+
+Summary:
+  Total:	299.7473 secs
+  Slowest:	0.7145 secs
+  Fastest:	0.0210 secs
+  Average:	0.4991 secs
+  Requests/sec:	100.0843
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.021 [1]	|
+  0.090 [7]	|
+  0.160 [12]	|
+  0.229 [8]	|
+  0.298 [10]	|
+  0.368 [17]	|
+  0.437 [4297]	|∎∎∎∎∎∎∎∎∎∎∎∎
+  0.506 [13880]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.576 [7418]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.645 [4059]	|∎∎∎∎∎∎∎∎∎∎∎∎
+  0.714 [291]	|∎
+
+Latency distribution:
+  10% in 0.4298 secs
+  25% in 0.4513 secs
+  50% in 0.4833 secs
+  75% in 0.5514 secs
+  90% in 0.5859 secs
+  95% in 0.6019 secs
+  99% in 0.6444 secs
+
+Method -- POST: 
+42 requests done.
+79 requests done.
+123 requests done.
+179 requests done.
+227 requests done.
+270 requests done.
+328 requests done.
+378 requests done.
+422 requests done.
+479 requests done.
+528 requests done.
+576 requests done.
+631 requests done.
+678 requests done.
+728 requests done.
+780 requests done.
+828 requests done.
+878 requests done.
+933 requests done.
+977 requests done.
+1031 requests done.
+1084 requests done.
+1127 requests done.
+1183 requests done.
+1231 requests done.
+1274 requests done.
+1329 requests done.
+1382 requests done.
+1423 requests done.
+1475 requests done.
+1529 requests done.
+1570 requests done.
+1629 requests done.
+1681 requests done.
+1723 requests done.
+1780 requests done.
+1833 requests done.
+1874 requests done.
+1933 requests done.
+1985 requests done.
+2027 requests done.
+2084 requests done.
+2135 requests done.
+2175 requests done.
+2230 requests done.
+2281 requests done.
+2325 requests done.
+2377 requests done.
+2430 requests done.
+2473 requests done.
+2530 requests done.
+2580 requests done.
+2624 requests done.
+2679 requests done.
+2729 requests done.
+2775 requests done.
+2830 requests done.
+2880 requests done.
+2926 requests done.
+2981 requests done.
+3028 requests done.
+3077 requests done.
+3132 requests done.
+3178 requests done.
+3228 requests done.
+3284 requests done.
+3329 requests done.
+3383 requests done.
+3436 requests done.
+3479 requests done.
+3535 requests done.
+3589 requests done.
+3629 requests done.
+3687 requests done.
+3738 requests done.
+3780 requests done.
+3838 requests done.
+3891 requests done.
+3933 requests done.
+3991 requests done.
+4042 requests done.
+4082 requests done.
+4117 requests done.
+4176 requests done.
+4228 requests done.
+4270 requests done.
+4328 requests done.
+4382 requests done.
+4424 requests done.
+4484 requests done.
+4539 requests done.
+4580 requests done.
+4620 requests done.
+4680 requests done.
+4733 requests done.
+4779 requests done.
+4834 requests done.
+4881 requests done.
+4926 requests done.
+4983 requests done.
+5033 requests done.
+5080 requests done.
+5137 requests done.
+5186 requests done.
+5237 requests done.
+5292 requests done.
+5337 requests done.
+5392 requests done.
+5443 requests done.
+5487 requests done.
+5542 requests done.
+5597 requests done.
+5638 requests done.
+5697 requests done.
+5751 requests done.
+5793 requests done.
+5853 requests done.
+5905 requests done.
+5946 requests done.
+6003 requests done.
+6056 requests done.
+6100 requests done.
+6157 requests done.
+6208 requests done.
+6255 requests done.
+6311 requests done.
+6360 requests done.
+6410 requests done.
+6467 requests done.
+6513 requests done.
+6565 requests done.
+6619 requests done.
+6663 requests done.
+6719 requests done.
+6774 requests done.
+6814 requests done.
+6873 requests done.
+6922 requests done.
+6961 requests done.
+7020 requests done.
+7074 requests done.
+7117 requests done.
+7176 requests done.
+7227 requests done.
+7268 requests done.
+7326 requests done.
+7378 requests done.
+7421 requests done.
+7477 requests done.
+7529 requests done.
+7573 requests done.
+7629 requests done.
+7680 requests done.
+7727 requests done.
+7783 requests done.
+7832 requests done.
+7881 requests done.
+7934 requests done.
+7982 requests done.
+8034 requests done.
+8088 requests done.
+8132 requests done.
+8187 requests done.
+8243 requests done.
+8284 requests done.
+8343 requests done.
+8396 requests done.
+8439 requests done.
+8498 requests done.
+8551 requests done.
+8594 requests done.
+8650 requests done.
+8701 requests done.
+8743 requests done.
+8801 requests done.
+8852 requests done.
+8891 requests done.
+8930 requests done.
+8988 requests done.
+9042 requests done.
+9081 requests done.
+9118 requests done.
+9177 requests done.
+9232 requests done.
+9273 requests done.
+9332 requests done.
+9383 requests done.
+9424 requests done.
+9463 requests done.
+9523 requests done.
+9579 requests done.
+9624 requests done.
+9683 requests done.
+9734 requests done.
+9774 requests done.
+9817 requests done.
+9878 requests done.
+9929 requests done.
+9970 requests done.
+10013 requests done.
+10074 requests done.
+10126 requests done.
+10169 requests done.
+10227 requests done.
+10279 requests done.
+10318 requests done.
+10363 requests done.
+10420 requests done.
+10470 requests done.
+10518 requests done.
+10574 requests done.
+10624 requests done.
+10664 requests done.
+10711 requests done.
+10768 requests done.
+10818 requests done.
+10857 requests done.
+10903 requests done.
+10961 requests done.
+11012 requests done.
+11061 requests done.
+11118 requests done.
+11168 requests done.
+11209 requests done.
+11258 requests done.
+11312 requests done.
+11360 requests done.
+11411 requests done.
+11464 requests done.
+11510 requests done.
+11549 requests done.
+11594 requests done.
+11651 requests done.
+11700 requests done.
+11752 requests done.
+11810 requests done.
+11858 requests done.
+11899 requests done.
+11951 requests done.
+12008 requests done.
+12055 requests done.
+12116 requests done.
+12173 requests done.
+12218 requests done.
+12262 requests done.
+12324 requests done.
+12380 requests done.
+12430 requests done.
+12489 requests done.
+12538 requests done.
+12581 requests done.
+12633 requests done.
+12690 requests done.
+12738 requests done.
+12796 requests done.
+12851 requests done.
+12896 requests done.
+12936 requests done.
+12991 requests done.
+13044 requests done.
+13084 requests done.
+13141 requests done.
+13195 requests done.
+13238 requests done.
+13275 requests done.
+13328 requests done.
+13385 requests done.
+13432 requests done.
+13472 requests done.
+13527 requests done.
+13584 requests done.
+13628 requests done.
+13668 requests done.
+13725 requests done.
+13779 requests done.
+13822 requests done.
+13884 requests done.
+13940 requests done.
+13984 requests done.
+14026 requests done.
+14091 requests done.
+14147 requests done.
+14195 requests done.
+14246 requests done.
+14303 requests done.
+14350 requests done.
+14404 requests done.
+14465 requests done.
+14514 requests done.
+14557 requests done.
+14623 requests done.
+14680 requests done.
+14732 requests done.
+14795 requests done.
+14849 requests done.
+14895 requests done.
+14953 requests done.
+15010 requests done.
+15058 requests done.
+15121 requests done.
+15176 requests done.
+15217 requests done.
+15261 requests done.
+15322 requests done.
+15376 requests done.
+15430 requests done.
+15490 requests done.
+15538 requests done.
+15581 requests done.
+15639 requests done.
+15693 requests done.
+15738 requests done.
+15800 requests done.
+15854 requests done.
+15896 requests done.
+15935 requests done.
+15994 requests done.
+16048 requests done.
+16095 requests done.
+16153 requests done.
+16208 requests done.
+16249 requests done.
+16296 requests done.
+16354 requests done.
+16404 requests done.
+16455 requests done.
+16514 requests done.
+16563 requests done.
+16604 requests done.
+16654 requests done.
+16712 requests done.
+16759 requests done.
+16818 requests done.
+16873 requests done.
+16918 requests done.
+16956 requests done.
+17016 requests done.
+17073 requests done.
+17117 requests done.
+17174 requests done.
+17227 requests done.
+17267 requests done.
+17308 requests done.
+17369 requests done.
+17426 requests done.
+17472 requests done.
+17530 requests done.
+17582 requests done.
+17625 requests done.
+17675 requests done.
+17734 requests done.
+17786 requests done.
+17832 requests done.
+17890 requests done.
+17950 requests done.
+18000 requests done.
+18044 requests done.
+18107 requests done.
+18166 requests done.
+18211 requests done.
+18261 requests done.
+18324 requests done.
+18375 requests done.
+18421 requests done.
+18477 requests done.
+18535 requests done.
+18583 requests done.
+18625 requests done.
+18683 requests done.
+18739 requests done.
+18783 requests done.
+18834 requests done.
+18893 requests done.
+18937 requests done.
+18985 requests done.
+19049 requests done.
+19101 requests done.
+19148 requests done.
+19205 requests done.
+19268 requests done.
+19318 requests done.
+19376 requests done.
+19429 requests done.
+19468 requests done.
+19528 requests done.
+19583 requests done.
+19626 requests done.
+19666 requests done.
+19725 requests done.
+19779 requests done.
+19832 requests done.
+19894 requests done.
+19944 requests done.
+19987 requests done.
+20045 requests done.
+20101 requests done.
+20147 requests done.
+20188 requests done.
+20246 requests done.
+20296 requests done.
+20341 requests done.
+20383 requests done.
+20446 requests done.
+20502 requests done.
+20551 requests done.
+20606 requests done.
+20660 requests done.
+20707 requests done.
+20767 requests done.
+20819 requests done.
+20868 requests done.
+20924 requests done.
+20968 requests done.
+21006 requests done.
+21050 requests done.
+21110 requests done.
+21159 requests done.
+21213 requests done.
+21273 requests done.
+21322 requests done.
+21364 requests done.
+21426 requests done.
+21483 requests done.
+21530 requests done.
+21572 requests done.
+21635 requests done.
+21691 requests done.
+21744 requests done.
+21804 requests done.
+21855 requests done.
+21897 requests done.
+21953 requests done.
+22011 requests done.
+22058 requests done.
+22116 requests done.
+22172 requests done.
+22215 requests done.
+22253 requests done.
+22317 requests done.
+22375 requests done.
+22418 requests done.
+22464 requests done.
+22522 requests done.
+22574 requests done.
+22624 requests done.
+22683 requests done.
+22732 requests done.
+22773 requests done.
+22824 requests done.
+22884 requests done.
+22929 requests done.
+22983 requests done.
+23033 requests done.
+23080 requests done.
+23119 requests done.
+23169 requests done.
+23227 requests done.
+23274 requests done.
+23329 requests done.
+23383 requests done.
+23428 requests done.
+23468 requests done.
+23526 requests done.
+23584 requests done.
+23629 requests done.
+23686 requests done.
+23741 requests done.
+23782 requests done.
+23819 requests done.
+23873 requests done.
+23925 requests done.
+23963 requests done.
+24017 requests done.
+24068 requests done.
+24108 requests done.
+24163 requests done.
+24216 requests done.
+24255 requests done.
+24308 requests done.
+24362 requests done.
+24402 requests done.
+24460 requests done.
+24513 requests done.
+24552 requests done.
+24614 requests done.
+24667 requests done.
+24708 requests done.
+24765 requests done.
+24818 requests done.
+24861 requests done.
+24921 requests done.
+24973 requests done.
+25020 requests done.
+25076 requests done.
+25123 requests done.
+25168 requests done.
+25225 requests done.
+25273 requests done.
+25321 requests done.
+25375 requests done.
+25423 requests done.
+25475 requests done.
+25532 requests done.
+25577 requests done.
+25630 requests done.
+25685 requests done.
+25726 requests done.
+25784 requests done.
+25837 requests done.
+25879 requests done.
+25941 requests done.
+25995 requests done.
+26035 requests done.
+26095 requests done.
+26145 requests done.
+26188 requests done.
+26247 requests done.
+26299 requests done.
+26342 requests done.
+26399 requests done.
+26449 requests done.
+26496 requests done.
+26554 requests done.
+26602 requests done.
+26655 requests done.
+26710 requests done.
+26753 requests done.
+26808 requests done.
+26860 requests done.
+26903 requests done.
+26959 requests done.
+27014 requests done.
+27056 requests done.
+27117 requests done.
+27172 requests done.
+27216 requests done.
+27276 requests done.
+27327 requests done.
+27375 requests done.
+27432 requests done.
+27480 requests done.
+27530 requests done.
+27584 requests done.
+27632 requests done.
+27686 requests done.
+27741 requests done.
+27786 requests done.
+27847 requests done.
+27905 requests done.
+27949 requests done.
+27990 requests done.
+28050 requests done.
+28104 requests done.
+28149 requests done.
+28210 requests done.
+28261 requests done.
+28312 requests done.
+28370 requests done.
+28417 requests done.
+28455 requests done.
+28502 requests done.
+28560 requests done.
+28607 requests done.
+28655 requests done.
+28709 requests done.
+28759 requests done.
+28813 requests done.
+28867 requests done.
+28915 requests done.
+28952 requests done.
+29004 requests done.
+29056 requests done.
+29102 requests done.
+29154 requests done.
+29210 requests done.
+29254 requests done.
+29316 requests done.
+29370 requests done.
+29416 requests done.
+29458 requests done.
+29516 requests done.
+29571 requests done.
+29616 requests done.
+29677 requests done.
+29728 requests done.
+29778 requests done.
+29837 requests done.
+29885 requests done.
+29938 requests done.
+29994 requests done.
+All requests done.
+
+Summary:
+  Total:	295.4146 secs
+  Slowest:	0.7030 secs
+  Fastest:	0.0205 secs
+  Average:	0.4919 secs
+  Requests/sec:	101.5522
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.021 [1]	|
+  0.089 [7]	|
+  0.157 [7]	|
+  0.225 [10]	|
+  0.293 [6]	|
+  0.362 [12]	|
+  0.430 [5394]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.498 [12401]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.566 [7172]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.635 [4397]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.703 [593]	|∎∎
+
+Latency distribution:
+  10% in 0.4183 secs
+  25% in 0.4398 secs
+  50% in 0.4763 secs
+  75% in 0.5444 secs
+  90% in 0.5854 secs
+  95% in 0.6069 secs
+  99% in 0.6514 secs
+

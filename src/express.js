@@ -1,16 +1,27 @@
-var express = require('express'),
+var express = require('express');
 
-	app = express();
+function createApp({middlewareAmount = 0}){
+	var	app = express();
 
-var body = 'Hello world';
+	var body = 'Hello world';
 
-function handle(req, res, next) {
-	res.send(body);
+	function handle(req, res, next) {
+		res.send(body);
+	}
+
+	var i = middlewareAmount;
+	while (i-- > 0) {
+		app.use(function(req, res, next) {
+			next();
+		});
+	}
+
+	app.get('/', handle);
+	app.post('/', handle);
+
+	return app;
 }
 
-app.get('/', handle);
-app.post('/', handle);
-
 module.exports = {
-	app: app
+	createApp
 };

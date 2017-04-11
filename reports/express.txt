@@ -1,0 +1,459 @@
+cpu info: Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz
+node version: v7.7.3
+---------0 middlewares---------
+Method -- GET: 
+1969 requests done.
+5073 requests done.
+8259 requests done.
+11452 requests done.
+14765 requests done.
+18094 requests done.
+21394 requests done.
+24767 requests done.
+28003 requests done.
+All requests done.
+
+Summary:
+  Total:	4.7983 secs
+  Slowest:	0.0610 secs
+  Fastest:	0.0005 secs
+  Average:	0.0080 secs
+  Requests/sec:	6252.2646
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.001 [1]	|
+  0.007 [224]	|
+  0.013 [29197]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.019 [378]	|∎
+  0.025 [105]	|
+  0.031 [59]	|
+  0.037 [2]	|
+  0.043 [14]	|
+  0.049 [16]	|
+  0.055 [0]	|
+  0.061 [4]	|
+
+Latency distribution:
+  10% in 0.0070 secs
+  25% in 0.0070 secs
+  50% in 0.0075 secs
+  75% in 0.0080 secs
+  90% in 0.0090 secs
+  95% in 0.0100 secs
+  99% in 0.0155 secs
+
+Method -- POST: 
+2874 requests done.
+6156 requests done.
+9420 requests done.
+12661 requests done.
+15969 requests done.
+19252 requests done.
+22552 requests done.
+25851 requests done.
+29192 requests done.
+All requests done.
+
+Summary:
+  Total:	4.6261 secs
+  Slowest:	0.0270 secs
+  Fastest:	0.0020 secs
+  Average:	0.0077 secs
+  Requests/sec:	6484.9342
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.002 [1]	|
+  0.005 [9]	|
+  0.007 [403]	|∎
+  0.010 [29002]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.012 [476]	|∎
+  0.015 [60]	|
+  0.017 [24]	|
+  0.020 [0]	|
+  0.022 [1]	|
+  0.025 [12]	|
+  0.027 [12]	|
+
+Latency distribution:
+  10% in 0.0070 secs
+  25% in 0.0075 secs
+  50% in 0.0075 secs
+  75% in 0.0080 secs
+  90% in 0.0085 secs
+  95% in 0.0085 secs
+  99% in 0.0100 secs
+
+---------10 middlewares---------
+Method -- GET: 
+2451 requests done.
+5495 requests done.
+8438 requests done.
+11551 requests done.
+14625 requests done.
+17738 requests done.
+20833 requests done.
+23937 requests done.
+27073 requests done.
+All requests done.
+
+Summary:
+  Total:	4.9618 secs
+  Slowest:	0.0335 secs
+  Fastest:	0.0005 secs
+  Average:	0.0083 secs
+  Requests/sec:	6046.1718
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.001 [1]	|
+  0.004 [13]	|
+  0.007 [216]	|
+  0.010 [28887]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.014 [694]	|∎
+  0.017 [62]	|
+  0.020 [99]	|
+  0.024 [3]	|
+  0.027 [0]	|
+  0.030 [9]	|
+  0.034 [16]	|
+
+Latency distribution:
+  10% in 0.0075 secs
+  25% in 0.0075 secs
+  50% in 0.0080 secs
+  75% in 0.0085 secs
+  90% in 0.0090 secs
+  95% in 0.0095 secs
+  99% in 0.0125 secs
+
+Method -- POST: 
+2783 requests done.
+5866 requests done.
+8888 requests done.
+12007 requests done.
+15087 requests done.
+18256 requests done.
+21407 requests done.
+24510 requests done.
+27601 requests done.
+All requests done.
+
+Summary:
+  Total:	4.8908 secs
+  Slowest:	0.0250 secs
+  Fastest:	0.0005 secs
+  Average:	0.0081 secs
+  Requests/sec:	6133.9982
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.001 [1]	|
+  0.003 [5]	|
+  0.005 [11]	|
+  0.008 [8963]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.010 [20514]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.013 [474]	|∎
+  0.015 [3]	|
+  0.018 [18]	|
+  0.020 [3]	|
+  0.023 [0]	|
+  0.025 [8]	|
+
+Latency distribution:
+  10% in 0.0075 secs
+  25% in 0.0075 secs
+  50% in 0.0080 secs
+  75% in 0.0085 secs
+  90% in 0.0090 secs
+  95% in 0.0095 secs
+  99% in 0.0110 secs
+
+---------100 middlewares---------
+Method -- GET: 
+1885 requests done.
+4129 requests done.
+6327 requests done.
+8566 requests done.
+10717 requests done.
+12951 requests done.
+15211 requests done.
+17122 requests done.
+19155 requests done.
+21368 requests done.
+23522 requests done.
+25800 requests done.
+28066 requests done.
+All requests done.
+
+Summary:
+  Total:	6.9296 secs
+  Slowest:	0.0335 secs
+  Fastest:	0.0005 secs
+  Average:	0.0115 secs
+  Requests/sec:	4329.2242
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.001 [1]	|
+  0.004 [12]	|
+  0.007 [29]	|
+  0.010 [221]	|
+  0.014 [28303]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.017 [965]	|∎
+  0.020 [246]	|
+  0.024 [173]	|
+  0.027 [26]	|
+  0.030 [14]	|
+  0.034 [10]	|
+
+Latency distribution:
+  10% in 0.0105 secs
+  25% in 0.0110 secs
+  50% in 0.0110 secs
+  75% in 0.0115 secs
+  90% in 0.0125 secs
+  95% in 0.0135 secs
+  99% in 0.0190 secs
+
+Method -- POST: 
+2008 requests done.
+4282 requests done.
+6513 requests done.
+8726 requests done.
+10956 requests done.
+13188 requests done.
+15376 requests done.
+17562 requests done.
+19745 requests done.
+21996 requests done.
+24190 requests done.
+26428 requests done.
+28550 requests done.
+All requests done.
+
+Summary:
+  Total:	6.8407 secs
+  Slowest:	0.0305 secs
+  Fastest:	0.0010 secs
+  Average:	0.0114 secs
+  Requests/sec:	4385.5328
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.001 [3]	|
+  0.004 [14]	|
+  0.007 [14]	|
+  0.010 [37]	|
+  0.013 [28119]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.016 [1607]	|∎∎
+  0.019 [180]	|
+  0.022 [9]	|
+  0.025 [0]	|
+  0.028 [6]	|
+  0.031 [11]	|
+
+Latency distribution:
+  10% in 0.0105 secs
+  25% in 0.0110 secs
+  50% in 0.0110 secs
+  75% in 0.0115 secs
+  90% in 0.0125 secs
+  95% in 0.0130 secs
+  99% in 0.0150 secs
+
+---------1000 middlewares---------
+Method -- GET: 
+479 requests done.
+1038 requests done.
+1598 requests done.
+2144 requests done.
+2693 requests done.
+3236 requests done.
+3829 requests done.
+4407 requests done.
+4954 requests done.
+5548 requests done.
+6129 requests done.
+6718 requests done.
+7255 requests done.
+7830 requests done.
+8440 requests done.
+9036 requests done.
+9597 requests done.
+10193 requests done.
+10799 requests done.
+11376 requests done.
+11930 requests done.
+12533 requests done.
+13132 requests done.
+13682 requests done.
+14264 requests done.
+14863 requests done.
+15471 requests done.
+16029 requests done.
+16635 requests done.
+17195 requests done.
+17784 requests done.
+18386 requests done.
+19042 requests done.
+19688 requests done.
+20268 requests done.
+20952 requests done.
+21622 requests done.
+22254 requests done.
+22880 requests done.
+23533 requests done.
+24206 requests done.
+24829 requests done.
+25502 requests done.
+26174 requests done.
+26786 requests done.
+27456 requests done.
+28142 requests done.
+28784 requests done.
+29434 requests done.
+All requests done.
+
+Summary:
+  Total:	24.9662 secs
+  Slowest:	0.1331 secs
+  Fastest:	0.0045 secs
+  Average:	0.0416 secs
+  Requests/sec:	1201.6229
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.005 [1]	|
+  0.017 [19]	|
+  0.030 [451]	|∎
+  0.043 [22945]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.056 [4596]	|∎∎∎∎∎∎∎∎
+  0.069 [1208]	|∎∎
+  0.082 [644]	|∎
+  0.095 [99]	|
+  0.107 [16]	|
+  0.120 [7]	|
+  0.133 [14]	|
+
+Latency distribution:
+  10% in 0.0350 secs
+  25% in 0.0365 secs
+  50% in 0.0400 secs
+  75% in 0.0425 secs
+  90% in 0.0505 secs
+  95% in 0.0605 secs
+  99% in 0.0771 secs
+
+Method -- POST: 
+644 requests done.
+1249 requests done.
+1909 requests done.
+2570 requests done.
+3187 requests done.
+3852 requests done.
+4519 requests done.
+5122 requests done.
+5737 requests done.
+6382 requests done.
+7034 requests done.
+7646 requests done.
+8320 requests done.
+8982 requests done.
+9620 requests done.
+10257 requests done.
+10927 requests done.
+11602 requests done.
+12199 requests done.
+12862 requests done.
+13542 requests done.
+14141 requests done.
+14809 requests done.
+15474 requests done.
+16108 requests done.
+16769 requests done.
+17435 requests done.
+18098 requests done.
+18712 requests done.
+19394 requests done.
+20061 requests done.
+20655 requests done.
+21331 requests done.
+22005 requests done.
+22619 requests done.
+23285 requests done.
+23959 requests done.
+24606 requests done.
+25236 requests done.
+25895 requests done.
+26565 requests done.
+27177 requests done.
+27856 requests done.
+28491 requests done.
+29107 requests done.
+29768 requests done.
+All requests done.
+
+Summary:
+  Total:	23.1987 secs
+  Slowest:	0.1001 secs
+  Fastest:	0.0025 secs
+  Average:	0.0386 secs
+  Requests/sec:	1293.1770
+  Total data:	330000 bytes
+  Size/request:	11 bytes
+
+Status code distribution:
+  [200]	30000 responses
+
+Response time histogram:
+  0.003 [1]	|
+  0.012 [15]	|
+  0.022 [30]	|
+  0.032 [1437]	|∎∎
+  0.042 [23481]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  0.051 [3163]	|∎∎∎∎∎
+  0.061 [955]	|∎∎
+  0.071 [640]	|∎
+  0.081 [223]	|
+  0.090 [42]	|
+  0.100 [13]	|
+
+Latency distribution:
+  10% in 0.0335 secs
+  25% in 0.0355 secs
+  50% in 0.0365 secs
+  75% in 0.0385 secs
+  90% in 0.0465 secs
+  95% in 0.0545 secs
+  99% in 0.0705 secs
+
