@@ -1,7 +1,5 @@
 var express = require('express'),
 
-	config = require('./config'),
-
 	app = express();
 
 var body = 'Hello world';
@@ -13,6 +11,6 @@ function handle(req, res, next) {
 app.get('/', handle);
 app.post('/', handle);
 
-app.listen(config.LISTEN_PORT, function() {
-	console.log('Express ready');
-});
+module.exports = {
+	app: app
+};

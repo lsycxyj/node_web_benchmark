@@ -1,8 +1,6 @@
 var koa = require('koa'),
 	router = require('koa-router')(),
 
-	config = require('./config'),
-
 	app = new koa();
 
 var body = 'Hello world';
@@ -17,6 +15,6 @@ router.post('/', handle);
 
 app.use(router.routes());
 
-app.listen(config.LISTEN_PORT, function() {
-	console.log('koa ready');
-});
+module.exports = {
+	app: app
+};
