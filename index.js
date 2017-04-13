@@ -90,24 +90,26 @@ function test(filename) {
 				resolve();
 			});
 
+		let server = null;
+
 		try {
-			for (let amount of [0, 10, 100, 1000]) {
+			for (let amount of [0]) {
 				stringStream.writeln(`---------${amount} middlewares---------`);
 
 				const app = mod.createApp({
 						middlewareAmount: amount
-					}),
-					server = await new Promise((resolve, reject) => {
-						const s = app.listen(config.LISTEN_PORT, function (err) {
-							if (!err) {
-								print(`${basename} ready`);
-								resolve(s);
-							}
-							else {
-								reject(err);
-							}
-						});
 					});
+				server = await new Promise((resolve, reject) => {
+					const s = app.listen(config.LISTEN_PORT, function (err) {
+						if (!err) {
+							print(`${basename} ready`);
+							resolve(s);
+						}
+						else {
+							reject(err);
+						}
+					});
+				});
 
 				for (let m of ['GET', 'POST']) {
 					stringStream.writeln(`Method -- ${m}: `);
@@ -117,6 +119,8 @@ function test(filename) {
 				}
 
 				server.close();
+				server = null;
+
 				print(`${basename} closed`);
 			}
 		}
@@ -124,6 +128,9 @@ function test(filename) {
 			print(e);
 		}
 		finally {
+			if(server) {
+				server.close();
+			}
 			stringStream.end();
 		}
 	});
